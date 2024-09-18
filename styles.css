@@ -71,6 +71,8 @@ ul li a{
 ul li a:hover{
     background: rgba(48, 48, 48, 0.5);
     border: 1.5px solid white;
+    backdrop-filter: blur(1px);
+    -webkit-backdrop-filter: blur(1px);
 }
 /*SOCIAL-LINKS*/
 
